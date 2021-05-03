@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    background-color:rgb(240, 236, 236) !important;
+  }
+
+h1{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+}
+
+.mycard{
+    width: 80%;
+    display: grid;
+    padding: 2em;
+    margin-bottom:2em;
+}
+
+.mybutton{
+    position:absolute;
+    bottom: 0;
+}
+
+.mybutton:hover {
+    background-color:#2196f3 !important;
+    color:#fff !important;
+}
+
+.mybutton1:hover span {
+    padding-right: 25px;
+}
+
+.mybutton2:hover span {
+    padding-left: 25px;
+}
+  
+.mybutton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
